@@ -1,0 +1,75 @@
+.tokenomics-page {
+  @apply flex items-stretch gap-[2vh];
+  .distribution {
+    @apply basis-[55%] text-center flex flex-col;
+    h2 {
+      @apply text-[3.5vh] font-bold uppercase;
+    }
+    img {
+      @apply w-full h-auto inline-block;
+      filter: drop-shadow(0 1vh 5vh theme("colors.teal.200" / 75%));
+    }
+    a {
+      @apply text-[3vh] opacity-60 hover:opacity-100 underline inline-block mt-[-2vh];
+    }
+  }
+  .fees {
+    @apply grow flex flex-col gap-[2vh] text-center;
+    h2 {
+      @apply text-[3.5vh] font-bold uppercase;
+    }
+    &-items {
+      @apply flex;
+    }
+    &-item {
+      @apply border-r-[0.1vh] border-white last:border-none basis-[20vh] grow;
+      h3 {
+        @apply uppercase font-bold text-[3.3vh];
+        text-shadow: 0 0 2vh currentColor;
+      }
+    }
+    &-data {
+      @apply mt-[0.5vh];
+      &-number {
+        @apply text-[2.5vh] font-bold;
+        text-shadow: 0 0 2vh theme("colors.white"/30%);
+      }
+      &-text {
+        @apply text-[1.5vh] opacity-75;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .tokenomics-page {
+    @apply flex-wrap justify-center;
+    > div {
+      @apply w-full;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .tokenomics-page {
+    .distribution {
+      @apply basis-[100%];
+      h2 {
+        @apply text-[2.2vh];
+      }
+      a {
+        @apply text-[2.2vh];
+      }
+    }
+    .fees {
+      h2 {
+        @apply text-[2.2vh];
+      }
+      &-item {
+        h3 {
+          @apply text-[2.2vh];
+        }
+      }
+    }
+  }
+}

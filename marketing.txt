@@ -1,0 +1,55 @@
+1 Variant
+
+Эммиссия:
+
+1 000 000 000 - tokens
+
+0.000001$ - real price
+
+Распределение:
+
+15% - Marketing
+15% - Team
+5% - Airdrop
+65% - Public Sale
+
+Комиссии:
+
+10% - Buy fee
+(
+  2% - Liquidity
+  2% - Burn
+  3% - Marketing
+  3% - Staking
+)
+
+20% - Sell fee
+(
+  5% - Liquidity
+  5% - Burn
+  5% - Marketing
+  5% - Staking
+)
+
+Limits:
+
+Buy - 0.75%
+Hold - 1.5%
+
+Airdrop:
+
+Telegram Ref Bot
+
+RoadMap:
+
+November 2022
+Listing on CoinMarketCap
+
+November-December 2022
+Cooperation with influencers in the DEX sphere
+
+January 2022
+10 million dollars of market capitalization
+
+March 2022
+Launching the Insiders Protocol AI
