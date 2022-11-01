@@ -18,7 +18,8 @@ export default function FirstLookPage() {
         </strong>
       </p>
       <p className="small">Contract Address:</p>
-      <a
+      <div className="contract-soon">Coming soon...</div>
+      {/* <a
         href="/"
         target="_blank"
         rel="noopener noreferrer"
@@ -26,7 +27,7 @@ export default function FirstLookPage() {
       >
         <LinkIcon />
         <span>0x212b752BE75AFc68C0397175fdcBe12B4BA8Cf52</span>
-      </a>
+      </a> */}
     </>
   )
 }

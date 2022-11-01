@@ -29,7 +29,7 @@ export default function TokenomicsPage() {
             </div>
             <div className="fees-data">
               <div className="fees-data-number">3%</div>
-              <div className="fees-data-text">Staking</div>
+              <div className="fees-data-text">Tax fee</div>
             </div>
           </div>
           <div className="fees-item">
@@ -48,7 +48,7 @@ export default function TokenomicsPage() {
             </div>
             <div className="fees-data">
               <div className="fees-data-number">5%</div>
-              <div className="fees-data-text">Staking</div>
+              <div className="fees-data-text">Tax fee</div>
             </div>
           </div>
         </div>
